@@ -1,0 +1,34 @@
+.book-image-container {
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: blur(0px); /* peut être animé au hover */
+  }
+  
+  .book-image-container::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: inherit;
+    filter: blur(12px) brightness(0.8);
+    transform: scale(1.1);
+    z-index: 0;
+  }
+  
+  .book-image-centered {
+    position: relative;
+    z-index: 1;
+    max-height: 220px;
+    max-width: 220px;
+    object-fit: contain;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    border-radius: 8px;
+  }
+  
