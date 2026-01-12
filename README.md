@@ -14,7 +14,7 @@ Application web de gestion de bibliothèque avec une interface utilisateur moder
 
 ### Backend
 - Python (FastAPI)
-- Base de données SQLite
+- MySQL
 
 ### Frontend
 - React.js
