@@ -75,4 +75,4 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 
 ## Auteur
 
-- [Votre nom](https://github.com/coulibaly17)
+- [Abdoulaye Coulibaly](https://github.com/coulibaly17)
